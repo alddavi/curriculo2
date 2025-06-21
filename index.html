@@ -4,8 +4,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Aldinei Davi Vieira</title>
-  <!-- Ícones Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -13,118 +11,71 @@
       background: #f9f9f9;
       color: #333;
     }
-
     header {
       background: #1e2a38;
       color: #fff;
-      padding: 10px;
-      text-align: center;
+      padding: 10px 10px;
+      text-align: left;
     }
-
     section {
       max-width: 900px;
       margin: 40px auto;
       padding: 0 20px;
     }
-
     h1, h2, h3 {
       color: #1e2a38;
     }
-
     ul {
       list-style-type: none;
       padding: 0;
     }
-
     li {
       margin-bottom: 8px;
     }
-
-    .perfil-header img {
-      vertical-align: middle;
-      border-radius: 8px;
-      margin-right: 10px;
+    .nome h2{
+        font-family: Arial, sans-serif;
+        background: #1e2a38;
+        color: #fff;
+        padding: 10px 10px;
+        text-align: center;
     }
-
-    .nome h2 {
-      font-family: Arial, sans-serif;
-      background: #1e2a38;
-      color: #fff;
-      padding: 10px;
-      text-align: center;
-    }
-
     .contact {
       text-align: left;
       margin-bottom: 30px;
     }
-
     .contact p {
-      margin: 8px 0;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      font-size: 16px;
+      margin: 5px;
     }
-
-    .contact i {
-      font-size: 14px;
-      color: #1e2a38;
-      cursor: pointer;
-      opacity: 0.7;
-      transition: transform 0.2s, color 0.2s;
-    }
-
-    .contact i:hover {
-      color: #000;
-      transform: scale(1.2);
-      opacity: 1;
-    }
-
-    .icon-link {
-      color: inherit;
-      text-decoration: none;
-    }
-
     footer {
       background: #1e2a38;
       color: #fff;
       text-align: center;
       padding: 20px;
     }
-
-    .imagem {
-      vertical-align: middle;
+    a.empresa-link {
+      color: #1e2a38;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a.empresa-link:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
   <header class="nome">
     <div class="perfil-header">
-      <a href="https://www.linkedin.com/in/davi9992" target="_blank">
-        <img class="imagem" src="imagens/download.png" alt="Davi Vieira" width="50" />
+      <a href="https://www.linkedin.com/in/davi9992?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+        <img class="imagem" src="imagens/download.png" alt="Davi Vieira" width="50" style="border-radius: 8px;" />
       </a>
       <h2>Gerente de Operações | Consultor em Inteligência de Negócios</h2>
     </div>
   </header>
 
   <section class="contact">
-    <p>
-      <a class="icon-link" href="https://www.google.com/maps/place/São+Caetano+do+Sul+-+SP" target="_blank">
-        <i class="fas fa-map-marker-alt" title="Ver no mapa"></i>
-      </a>
-      São Caetano do Sul - SP
-    </p>
-    <p>
-      <strong>Email:</strong> aldineidavi@hotmail.com
-      <i class="fas fa-copy" title="Copiar Email" onclick="copiarEmail()"></i>
-    </p>
-    <p>
-      <strong>Telefone:</strong> (11) 98152-8675
-      <a class="icon-link" href="https://wa.me/5511981528675" target="_blank" title="Abrir no WhatsApp">
-        <i class="fab fa-whatsapp"></i>
-      </a>
-    </p>
+    <p>São Caetano do Sul - SP</p>
+    <p><strong>Email:</strong> aldineidavi@hotmail.com</p>
+    <p><strong>Telefone:</strong> (11) 98152-8675</p>
     <p><strong>Estado Civil:</strong> Solteiro</p>
   </section>
 
@@ -152,7 +103,7 @@
   <section>
     <h2>Experiência Profissional</h2>
 
-    <h3>Chaves Gold – Consultor em Inteligência de Negócios</h3>
+    <h3><a class="empresa-link" href="https://chavesgold.com.br/" target="_blank">Chaves Gold – Consultor em Inteligência de Negócios</a></h3>
     <ul>
       <li>Atualização e envio de relatórios de vendas</li>
       <li>Gestão de clientes ativos e inativos</li>
@@ -179,7 +130,7 @@
       <li>Controle e apuração de comissões para representantes, vendedores internos e externos, distribuidores e terceiros</li>
     </ul>
 
-    <h3>Jaguarlog – Gerente Administrativo e Marketing</h3>
+    <h3><a class="empresa-link" href="https://www.instagram.com/jaguar.log/" target="_blank">Jaguarlog – Gerente Administrativo e Marketing</a></h3>
     <ul>
       <li>Controle de operações logísticas</li>
       <li>Gestão de projetos</li>
@@ -190,7 +141,7 @@
       <li>Responsável por tendências de desenvolvimento estratégico</li>
     </ul>
 
-    <h3>M3Corp – Assistente Comercial</h3>
+    <h3><a class="empresa-link" href="https://m3corp.com.br/" target="_blank">M3Corp – Assistente Comercial</a></h3>
     <ul>
       <li>Controle administrativo-comercial</li>
       <li>Solicitações e autorizações para cancelamento e refaturamento</li>
@@ -200,7 +151,7 @@
       <li>Cadastros de parceiros, produtos e usuários</li>
     </ul>
 
-    <h3>General Motors / INFOSYS – Operador de Processos Sênior</h3>
+    <h3><a class="empresa-link" href="https://www.chevrolet.com.br/" target="_blank">General Motors / INFOSYS – Operador de Processos Sênior</a></h3>
     <ul>
       <li>Controle, análise e planejamento do fluxo de processos</li>
       <li>Treinamento em EXTRA MGO, CATALYST, SAP e EXCEL</li>
@@ -213,14 +164,14 @@
       <li>Controle de crédito extemporâneo, fechamentos de câmbio e análise de vendas</li>
     </ul>
 
-    <h3>General Motors / CSC – Assistente Administrativo</h3>
+    <h3><a class="empresa-link" href="https://www.chevrolet.com.br/" target="_blank">General Motors / CSC – Assistente Administrativo</a></h3>
     <ul>
       <li>Lançamento e controle de notas fiscais de materiais consignados</li>
       <li>Emissões de relatórios</li>
       <li>Operação do sistema SAP</li>
     </ul>
 
-    <h3>Citibank / Xerox - ACS – Mensageiro</h3>
+    <h3><a class="empresa-link" href="https://corporateportal.brazil.citibank.com/" target="_blank">Citibank / Xerox - ACS – Mensageiro</a></h3>
     <ul>
       <li>Controle de salas de reuniões</li>
       <li>Controle de expedição de documentos</li>
@@ -235,14 +186,5 @@
   <footer>
     <p>&copy; 2025 Aldinei Davi Vieira. Todos os direitos reservados.</p>
   </footer>
-
-  <script>
-    function copiarEmail() {
-      const email = "aldineidavi@hotmail.com";
-      navigator.clipboard.writeText(email).then(() => {
-        alert("Email copiado para a área de transferência!");
-      });
-    }
-  </script>
 </body>
 </html>
